@@ -1,3 +1,5 @@
+package ProblemA;
+
 public class Teacher extends Person {
     private String subject;
 
@@ -17,7 +19,7 @@ public class Teacher extends Person {
 
     @Override
     public String toString() {
-        return "Teacher [name=" + getName() + ", age=" + getAge()
+        return "ProblemA.Teacher [name=" + getName() + ", age=" + getAge()
                 + ", address=" + getAddress() + ", phoneNumber="
                 + getPhoneNumber() + ", subject=" + subject + "]";
     }

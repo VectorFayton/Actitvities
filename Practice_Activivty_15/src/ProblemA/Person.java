@@ -1,3 +1,5 @@
+package ProblemA;
+
 public class Person {
     private String name;
     private int age;
@@ -45,7 +47,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person [name=" + name + ", age=" + age + ", address=" + address
+        return "ProblemA.Person [name=" + name + ", age=" + age + ", address=" + address
                 + ", phoneNumber=" + phoneNumber + "]";
     }
 }

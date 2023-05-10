@@ -1,6 +1,8 @@
+package ProblemA;
+
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person("John Doe", 30, "123 Main St", "555-1234");
+        Person person = new Person("John Doe", 30, "123 ProblemA.Main St", "555-1234");
         System.out.println(person.toString());
 
         Student student = new Student("Jane Smith", 20, "456 Park Ave",
